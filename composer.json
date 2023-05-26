@@ -1,0 +1,23 @@
+{
+    "name": "vagrant/refurbished",
+    "description": "connect with API keys",
+    "type": "project",
+    "license": "CC",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabiana Mecca",
+            "email": "fabianamecca@yahoo.it"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.1",
+        "phpoffice/phpspreadsheet": "^1.25",
+        "league/csv": "^9.8",
+        "php-school/cli-menu": "^4.3"
+    }
+}
